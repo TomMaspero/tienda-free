@@ -1,0 +1,78 @@
+{
+    "phone": [
+        {
+            "name": "Samsung S22",
+            "price": 800,
+            "color": "Phantom Black",
+            "seller": "Samsung Store",
+            "brand": "Samsung",
+            "description": "DESCRIPTION",
+            "ram": "8gb",
+            "storage": "128gb"
+        },
+        {
+            "name": "Apple Iphone 13",
+            "price": 700,
+            "color": "Midnight Blue",
+            "seller": "Apple Store",
+            "brand": "Apple",
+            "description": "DESCRIPTION",
+            "ram": "4gb",
+            "storage": "128gb"
+        },
+        {
+            "name": "Google Pixel 6",
+            "price": 500,
+            "color": "Stormy Black",
+            "seller": "Google store",
+            "brand": "Google",
+            "description": "DESCRIPTION",
+            "ram": "8gb",
+            "storage": "128gb"
+        }
+    ],
+    "laptop": [
+        {
+            "name": "Lenovo Legion 7i Gen 6",
+            "price": 1900,
+            "seller": "Lenovo store",
+            "brand": "Lenovo Legion",
+            "description": "DESCRIPTION",
+            "ram": "16gb DDR4 3200MHz",
+            "cpu": "AMD Ryzen 7 5800H",
+            "gpu": "NVIDIA GeForce RTX 3070 8gb",
+            "storage": "1TB SSD",
+            "display": "16' IPS",
+            "resolution": "2560x1600 QHD",
+            "OS": "Windows 11 Home 64"
+        },
+        {
+            "name": "HP OMEN 17",
+            "price": 1700,
+            "seller": "HP store",
+            "brand": "HP OMEN",
+            "description": "DESCRIPTION",
+            "ram": "16gb DDR4 3200MHz",
+            "cpu": "Intel Core i7-11800H",
+            "gpu": "NVIDIA GeForce RTX 3070 8gb",
+            "storage": "1TB SSD",
+            "display": "17.3' IPS",
+            "resolution": "2560x1440 QHD",
+            "OS": "Windows 11 Home 64"
+        },
+        {
+            "name": "Razer Blade 14",
+            "price": 2800,
+            "seller": "Razer store",
+            "brand": "Razer",
+            "description": "DESCRIPTION",
+            "ram": "16gb DDR5 4800MHz",
+            "cpu": "AMD Ryzen 9 6900HX",
+            "gpu": "NVIDIA GeForce RTX 3080Ti",
+            "storage": "1TB SSD",
+            "display": "14' IPS",
+            "resolution": "2560x1440 QHD",
+            "OS": "Windows 11 Home 64"
+        }
+    ]
+}

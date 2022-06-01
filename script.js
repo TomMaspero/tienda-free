@@ -1,4 +1,14 @@
-//holi
+//renderizar
+// $(document).ready(function(){
+//     loadingProducts();
+// });
 
-str = 'HOLA';
-alert(str);
+
+const URLJSON = 'products.json';
+
+
+function createProduct(type){
+
+}
+
+//VER CLASES
