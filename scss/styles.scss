@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$bgColorBrand1: violet;
+$textBrandColor: white;
+$titleFont: 'Bebas Neue', cursive;
+$titleFont2: 'Lobster', cursive;
+$bodyFont: 'Roboto Flex', sans-serif;
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    background-color: $bgColorBrand1;
+    
+    &__container-top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__logo {
+        &-link {
+            font-family: $titleFont;
+            color: $textBrandColor;
+            text-decoration: none;
+        }
+    }
+    &__searchbox {
+        width: 40vw;
+        &--text {
+            width: 80%;
+            border: 2px solid rgba(209, 209, 209, 0.673);
+            border-radius: 10px;
+            padding: 5px;
+        }
+        &--submit {
+            border: 2px solid rgba(209, 209, 209, 0.673);
+            border-radius: 10px;
+            padding: 5px;
+            background-color: aliceblue;
+            color: rgb(33, 32, 32);
+        }
+    }
+    &__promo-text {
+        font-family: $bodyFont;
+    }
+}
